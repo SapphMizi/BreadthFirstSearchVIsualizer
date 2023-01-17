@@ -208,6 +208,7 @@ void Main()
 					nodes[v].active = 1;
 					Flag = false;
 				}
+				// ここからがうまくいかない（処理されてない）
 				else
 				{
 					for (NodeID x : G[v])
